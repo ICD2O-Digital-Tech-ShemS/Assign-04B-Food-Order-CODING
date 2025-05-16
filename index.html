@@ -1,9 +1,50 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="immaculata, ics2o" />
+  <meta name="author" content="Shem Irekpita" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" type="image/png" sizes="180x190" href="">
+  <link rel="stylesheet" href="./css/style.css" />
+  <title></title>
+</head>
+<body>
+  <script src="./js/script.js"></script>
+  <table>
+    <tr>
+      <td><h1>OPTION 1 = $18.99</h1><img  src="./images/KFC1.webp">
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+          <input type="checkbox" id="checkbox1" class="mdl-checkbox__input">
+          <span class="mdl-checkbox__label">Checkbox</span>
+        </label></td> 
+      <td><h1>OPTION 2 = $17.99</h1><img src="./images/KFC2.webp">
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+          <input type="checkbox" id="checkbox2" class="mdl-checkbox__input">
+          <span class="mdl-checkbox__label">Checkbox</span>
+        </label></td> 
+      <td><h1>OPTION 3 = $16.99</h1><img src="./images/KFC3.webp">
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+          <input type="checkbox" id="checkbox3" class="mdl-checkbox__input">
+          <span class="mdl-checkbox__label">Checkbox</span>
+        </label></td>
+    </tr>
+  </table>
+  <h3>Enter your order</h3>
+
+
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+    onclick="Order()">
+    Enter
+  </button>
+
+  <div id="answers">
+    <div id="calculation"></div>
+    <div id="tax"></div>
+    <div id="total"></div>
+  </div>
+</body>
 </html>
